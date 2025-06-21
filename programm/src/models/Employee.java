@@ -40,8 +40,7 @@ public class Employee implements Runnable {
     public void setWorkedHours(int workedHours) { this.workedHours = workedHours; }
     public void setTotalHours(int totalHours) { this.totalHours = totalHours; }
 
-    // короче перепиши логику
-    // вместо hashmap arraylist
+    
     public void startDay() throws InterruptedException {
         this.workedHoursToday = 0;
 
